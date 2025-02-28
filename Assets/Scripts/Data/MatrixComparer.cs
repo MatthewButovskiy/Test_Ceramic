@@ -5,7 +5,7 @@ namespace MyMatrixAlignmentProject.Data
 {
     public class MatrixComparer : IEqualityComparer<Matrix4x4>
     {
-        private const float Epsilon = 1e-3f;
+        private const float Epsilon = 1e-2f;
 
         public bool Equals(Matrix4x4 a, Matrix4x4 b)
         {
